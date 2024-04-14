@@ -1,0 +1,41 @@
+body{
+    font-family: "Roboto", sans-serif;
+    background-color: rgb(217,235,250);
+}
+
+section.category-product {
+    padding: 55px 0px;
+}
+
+section.category-product .card{
+    background-color: #f7f7f7;
+    overflow: hidden;
+}
+
+section.category-product .card .card-body{
+    text-align: center;
+}
+
+section.category-product .card .card-body img{
+    height: 150px;
+    object-fit: contain;
+    transition: 0.6s;
+}
+
+section.category-product .card .card-body h4{
+    font-size: 25px;
+    text-shadow: 1px 1px 1px #4444;
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+
+section.category-product .card .card-body a.view-all-btn{
+    background: var(--bs-success);
+    padding: 7px 30px;
+    border-radius: 50px;
+    color: #fff;
+}
+
+section.category-product .card:hover .card-body img{
+    transform: scale(1.2);
+}
